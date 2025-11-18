@@ -1,0 +1,92 @@
+style>
+        *{
+            padding: 0%;
+            margin: 0%;  
+            color: aliceblue;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            
+            
+        }
+           
+        .image2{
+            margin-top: 30px;
+            text-align: center;
+            padding: 20px;
+
+        }
+        .image2,p{
+            margin-top: 30px;
+        }
+        .ull li{
+            display: inline-block;
+            padding: 20px;
+            cursor: pointer;
+        }
+
+         .one{
+            float: left;
+         } 
+         .logo{
+            cursor: pointer;
+
+         }
+         
+         table,th,td{
+            border: 1px solid rgb(244, 252, 255);
+            border-collapse: collapse;
+            padding: 25px 10%;
+            width: 1000px;
+            
+            
+
+         }
+         th,td{
+            background-color: hwb(50,0,1);
+         }
+         .tabel{
+            padding-left: 90px;
+         }
+         a{
+            text-decoration: none;
+            color: rgb(252, 251, 249);
+            background-color: black;
+            border-radius: 10px;
+            padding: 10px;
+            
+         }
+         .photo1{
+            margin-left: 60px;
+            padding: 20px;
+            transition: 1s;
+         }
+         .photos2{
+            margin-left: 60px;
+            padding: 20px;
+         }
+         .play{
+            background-color: orange;
+            color: aliceblue;
+            padding: 1px; 
+            text-align: center;
+           
+         }
+         .ull li:hover{
+            background-color: rgb(8, 8, 8);
+            color: aliceblue;
+            border-radius: 4px;
+         }
+         .play:hover{
+            background-color: hwb(50 7% 7%);
+         }
+         .photo:hover{
+            transform: scale(1.3);
+         }
+          
+
+        
+            
+    
